@@ -1,0 +1,55 @@
+.test {
+  margin-top: 2rem;
+
+  &__title {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 52px;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 0;
+    list-style: none;
+
+    .test-item {
+      
+      h4 {
+        margin: 0;
+        margin-bottom: 5px;
+        font-weight: 700;
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        margin: 0;
+        margin-bottom: 45px;
+      }
+    }
+  }
+
+  button {
+    border: 1px solid #18a0fb;
+    background: #64bcf7;
+    color: white;
+    border-radius: 20px;
+    padding: 1rem 1rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    transition: 0.3s ease-in-out;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+    &:hover {
+      background: none;
+      border: 1px solid #64bcf7;
+      color: black;
+      transition: 0.3s ease-in-out;
+    }
+  }
+}

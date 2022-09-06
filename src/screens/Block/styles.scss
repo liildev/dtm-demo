@@ -1,0 +1,73 @@
+.block {
+  h2 {
+    margin-top: 2rem;
+    font-size: 35px;
+    line-height: 52px;
+    text-align: center;
+  }
+
+  .subjects {
+    width: 100%;
+    div {
+      width: 100%;
+    }
+
+    h3 {
+      margin-top: 3rem;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 36px;
+    }
+  }
+
+  .university {
+    padding: 25px;
+    width: 80%;
+    height: 200px;
+    background: #ffffff;
+    border: 1px solid #18a0fb;
+    box-shadow: 0px 0px 6px rgba(24, 160, 251, 0.5);
+    border-radius: 20px;
+
+    h3 {
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 36px;
+      margin-top: 0;
+    }
+
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 70%;
+      margin-top: 1rem;
+
+      p {
+        width: 100px;
+      }
+    }
+  }
+
+  .btn {
+    width: 200px;
+    border: 1px solid #18a0fb;
+    background: #64bcf7;
+    color: white;
+    border-radius: 20px;
+    padding: 1rem 1rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    transition: 0.3s ease-in-out;
+    margin-top: 3rem;
+
+    &:hover {
+      background: none;
+      border: 1px solid #64bcf7;
+      color: black;
+      transition: 0.3s ease-in-out;
+    }
+  }
+}

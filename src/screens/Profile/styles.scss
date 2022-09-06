@@ -1,0 +1,29 @@
+.profile {
+  margin-top: 2rem;
+
+  h2 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+
+  button {
+    border: 1px solid #18a0fb;
+    background: #64bcf7;
+    color: white;
+    border-radius: 20px;
+    padding: 1rem 1rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    transition: 0.3s ease-in-out;
+    margin-top: 1rem;
+    &:hover {
+      background: none;
+      border: 1px solid #64bcf7;
+      color: black;
+      transition: 0.3s ease-in-out;
+    }
+  }
+}
